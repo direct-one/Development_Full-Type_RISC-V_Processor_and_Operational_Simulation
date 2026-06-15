@@ -98,3 +98,7 @@ Defines Opcodes, R-Type instructions, and B-Type instructions for each instructi
 
 <img width="543" height="489" alt="image 4" src="https://github.com/user-attachments/assets/570b931f-a5eb-4712-bc44-72e7609a8b1b" />
 
+## Overview (Blcock Diagram)
+<img width="1278" height="1094" alt="image" src="https://github.com/user-attachments/assets/6a1ad6c0-9e89-41d0-824e-6e8b2a00695b" />
+   
+
