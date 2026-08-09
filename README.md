@@ -93,3 +93,40 @@ end
 1. **RTL Simulation:** Xilinx Vivado 환경에서 `tb_top.v`를 최상위 모듈로 설정합니다.
 2. **Memory Initialization:** 컴파일된 `imem.mem` 파일이 Instruction Memory 경로에 정확히 마운트되었는지 확인합니다.
 3. **Waveform Analysis:** 초기 2클럭 동안 `rst = 1`을 인가하여 시스템을 초기화한 후, 매 클럭마다 `PC`의 순차적 증가와 `Register File` 내부 데이터의 변화를 파형(Waveform)으로 관찰합니다.
+
+## Simulation
+
+### Overview
+<img width="1450" height="587" alt="image" src="https://github.com/user-attachments/assets/a3d946ad-e100-4e84-9700-5aa08164ea61" />
+
+### I-Type
+<img width="1184" height="625" alt="image" src="https://github.com/user-attachments/assets/66364c3e-cca2-438a-87da-9ded04946ae1" />
+<img width="1292" height="560" alt="image" src="https://github.com/user-attachments/assets/3328df76-1601-4039-b6d2-bf242d73d0bd" />
+
+### R-Type
+<img width="1301" height="576" alt="image" src="https://github.com/user-attachments/assets/f76eaa70-3a2a-46fc-9dfc-fe6e2939264d" />
+
+### IL-Type
+<img width="1306" height="637" alt="image" src="https://github.com/user-attachments/assets/a6684981-9514-499c-a7d0-38f2175a093f" />
+
+### S-Type
+<img width="1364" height="596" alt="image" src="https://github.com/user-attachments/assets/11abbed1-3393-4d6e-b1c1-d4cccfd58bb7" />
+
+### B-Type
+<img width="1336" height="674" alt="image" src="https://github.com/user-attachments/assets/c6bd9ef3-7ab7-45ad-9016-fc2cc26aa525" />
+<img width="1334" height="622" alt="image" src="https://github.com/user-attachments/assets/a9832150-6ab2-4c1b-99e6-e150293e4dc8" />
+
+### U-Type
+<img width="1359" height="662" alt="image" src="https://github.com/user-attachments/assets/f2a9e57d-ecd7-4260-a746-50d63d5541c5" />
+
+### J-type
+<img width="1406" height="625" alt="image" src="https://github.com/user-attachments/assets/76dff4db-f0dc-4186-90a6-54c1135f93a6" />
+
+
+
+
+
+
+
+
+
