@@ -90,6 +90,6 @@ end
 ![Simulation Test Scenario](https://github.com/user-attachments/assets/570b931f-a5eb-4712-bc44-72e7609a8b1b)
 
 ### 5.2 Testbench Execution Steps
-1. **RTL Simulation:** Xilinx Vivado 또는 ModelSim 환경에서 `tb_top.v`를 최상위 모듈로 설정합니다.
+1. **RTL Simulation:** Xilinx Vivado 환경에서 `tb_top.v`를 최상위 모듈로 설정합니다.
 2. **Memory Initialization:** 컴파일된 `imem.mem` 파일이 Instruction Memory 경로에 정확히 마운트되었는지 확인합니다.
 3. **Waveform Analysis:** 초기 2클럭 동안 `rst = 1`을 인가하여 시스템을 초기화한 후, 매 클럭마다 `PC`의 순차적 증가와 `Register File` 내부 데이터의 변화를 파형(Waveform)으로 관찰합니다.
